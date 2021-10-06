@@ -1,0 +1,16 @@
+body {
+  background-color: #8ab3dd;
+}
+
+.main-header {
+  border: solid #021930 8px;
+  text-align: center;
+}
+.parent1 {
+  display: flex;
+}
+
+.row1 {
+  border: solid #07396b 6px;
+  text-align: center;
+}
