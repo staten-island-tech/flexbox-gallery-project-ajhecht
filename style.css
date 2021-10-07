@@ -1,3 +1,11 @@
+body,
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #8ab3dd;
 }
@@ -6,11 +14,14 @@ body {
   border: solid #021930 8px;
   text-align: center;
 }
-.parent1 {
+.parent {
   display: flex;
+  height: 300px;
 }
-
-.row1 {
+.row {
   border: solid #07396b 6px;
   text-align: center;
+  width: 25%;
+  height: 90%;
+  margin: auto;
 }
