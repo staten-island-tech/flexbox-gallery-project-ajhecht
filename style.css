@@ -8,15 +8,18 @@ html,
 
 body {
   background-color: #8ab3dd;
+  font-family: "Gothic A1", sans-serif;
 }
 
 .main-header {
   border: solid #021930 8px;
   text-align: center;
+  padding: 5px 2px;
+  font-size: 50px;
 }
 .parent {
   display: flex;
-  height: 300px;
+  height: 450px;
 }
 .row {
   border: solid #07396b 6px;
@@ -24,4 +27,5 @@ body {
   width: 25%;
   height: 90%;
   margin: auto;
+  font-size: 20px;
 }
