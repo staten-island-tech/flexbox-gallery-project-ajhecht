@@ -16,7 +16,9 @@ body {
   text-align: center;
   padding: 5px 2px;
   font-size: 50px;
+  box-shadow: 10px 5px 5px rgb(9, 51, 25);
 }
+
 .parent {
   display: flex;
   height: 450px;
@@ -28,4 +30,27 @@ body {
   height: 90%;
   margin: auto;
   font-size: 20px;
+  box-shadow: 10px 5px 5px rgb(9, 51, 25);
+}
+
+.post-img {
+  width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  .gallery {
+    background-color: #56855c;
+  }
+  .gallery-card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery {
+    width: 90vw;
+  }
+  .gallery-card {
+    width: 40%;
+  }
 }
