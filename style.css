@@ -7,25 +7,55 @@ html,
 }
 
 body {
-  background-color: #8ab3dd;
-  font-family: "Gothic A1", sans-serif;
+  background-color: #5f7063;
+  font-family: "Georama", sans-serif;
 }
 
 .main-header {
-  border: solid #021930 8px;
+  border: solid #203f14 8px;
   text-align: center;
-  padding: 5px 2px;
+  padding: 7px 4px;
   font-size: 50px;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  margin-top: 5vh;
+  color: #362706;
 }
+
 .parent {
   display: flex;
   height: 450px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25);
 }
 .row {
-  border: solid #07396b 6px;
+  border: solid #203f14 6px;
   text-align: center;
   width: 25%;
   height: 90%;
   margin: auto;
   font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #362706;
 }
+
+.post-img {
+  width: 335px;
+}
+
+@media (min-width: 576px) {
+  ...;
+}
+
+@media (min-width: 768px) {
+  ...;
+}
+
+@media (min-width: 992px) {
+  ...;
+}
+
+@media (min-width: 1200px);
