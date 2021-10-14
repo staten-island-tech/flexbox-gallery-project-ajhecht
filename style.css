@@ -29,7 +29,6 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-content: center;
-  box-shadow: rgba(50, 50, 93, 0.25);
 }
 .row {
   border: solid #203f14 6px;
@@ -38,51 +37,12 @@ body {
   height: 90%;
   margin: auto;
   font-size: 20px;
-<<<<<<< HEAD
   font-weight: 700;
   margin-bottom: 15px;
   color: #362706;
+  box-shadow: 15px 8px 8px rgb(9, 51, 25);
 }
 
 .post-img {
-  width: 335px;
+  width: 80%;
 }
-
-@media (min-width: 576px) {
-  ...;
-=======
-  box-shadow: 10px 5px 5px rgb(9, 51, 25);
-}
-
-.post-img {
-  width: 70%;
-}
-
-@media screen and (max-width: 800px) {
-  .gallery {
-    background-color: #56855c;
-  }
-  .gallery-card {
-    width: 40%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .gallery {
-    width: 90vw;
-  }
-  .gallery-card {
-    width: 40%;
-  }
->>>>>>> 4ce519b1e3ceafeccf1a55b0db66a504b045477d
-}
-
-@media (min-width: 768px) {
-  ...;
-}
-
-@media (min-width: 992px) {
-  ...;
-}
-
-@media (min-width: 1200px);
