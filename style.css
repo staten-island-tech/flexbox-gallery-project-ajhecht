@@ -28,6 +28,24 @@ body {
   transform: translate(-3rem);
 }
 
+.random-button {
+  border: solid #203f14 8px;
+  text-align: center;
+  padding: 2px 1px;
+  font-size: 20px;
+  margin-left: 48rem;
+  margin-right: 48rem;
+  margin-top: 5vh;
+  color: #1f1603;
+  box-shadow: 10px 5px 5px rgb(9, 51, 25);
+  transition: 1s;
+  background-color: #203f14;
+}
+
+.random-button:hover {
+  transform: translate(0.5rem, -1rem);
+}
+
 .parent {
   display: flex;
   height: 450px;
@@ -50,7 +68,15 @@ body {
   transition: 1s;
 }
 
-.row:hover {
+.row1:hover {
+  transform: translate(0.5rem, -1rem);
+}
+
+.row2:hover {
+  transform: translate(0.5rem, -1rem);
+}
+
+.row3:hover {
   transform: translate(0.5rem, -1rem);
 }
 
