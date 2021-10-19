@@ -9,6 +9,7 @@ html,
 body {
   background-color: #5f7063;
   font-family: "Georama", sans-serif;
+  animation: test 2s;
 }
 
 .main-header {
@@ -46,6 +47,24 @@ body {
   transform: translate(0.5rem, -1rem);
 }
 
+.random-button2 {
+  border: solid #203f14 5px;
+  text-align: center;
+  padding: 1px 0.5px;
+  font-size: 17px;
+  margin-left: 49rem;
+  margin-right: 49rem;
+  margin-top: 7vh;
+  color: #1f1603;
+  box-shadow: 5px 2px 2px rgb(9, 51, 25);
+  transition: 0.5s;
+  background-color: #203f14;
+}
+
+.random-button2:hover {
+  transform: translate(0rem, -2rem);
+}
+
 .parent {
   display: flex;
   height: 450px;
@@ -65,21 +84,24 @@ body {
   margin-bottom: 15px;
   color: #362706;
   box-shadow: 15px 8px 8px rgb(9, 51, 25);
-  transition: 1s;
+  transition: 3s;
 }
 
-.row1:hover {
+.row:hover {
   transform: translate(0.5rem, -1rem);
 }
 
-.row2:hover {
-  transform: translate(0.5rem, -1rem);
-}
-
-.row3:hover {
-  transform: translate(0.5rem, -1rem);
+.post-img:hover {
+  transform: translate(0.2rem, -0.3rem);
+  outline: solid #203f14 2px;
 }
 
 .post-img {
   width: 75%;
+}
+
+@keyframes test {
+  0% {
+    opacity: 0;
+  }
 }
