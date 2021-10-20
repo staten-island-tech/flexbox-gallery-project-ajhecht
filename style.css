@@ -34,8 +34,8 @@ body {
   text-align: center;
   padding: 2px 1px;
   font-size: 20px;
-  margin-left: 48rem;
-  margin-right: 48rem;
+  margin-left: 38vw;
+  margin-right: 38vw;
   margin-top: 5vh;
   color: #1f1603;
   box-shadow: 10px 5px 5px rgb(9, 51, 25);
@@ -52,8 +52,8 @@ body {
   text-align: center;
   padding: 1px 0.5px;
   font-size: 17px;
-  margin-left: 49rem;
-  margin-right: 49rem;
+  margin-left: 39vw;
+  margin-right: 39vw;
   margin-top: 7vh;
   color: #1f1603;
   box-shadow: 5px 2px 2px rgb(9, 51, 25);
@@ -78,7 +78,7 @@ body {
   width: 25%;
   height: 90%;
   margin: auto;
-  margin-top: 10vh;
+  margin-top: 20vh;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -103,5 +103,32 @@ body {
 @keyframes test {
   0% {
     opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .row,
+  .post-img {
+    width: 45%;
+    height: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    width: 80%;
+    height: 80%;
   }
 }
