@@ -67,7 +67,6 @@ body {
 
 .parent {
   display: flex;
-  height: 450px;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-content: center;
@@ -98,6 +97,7 @@ body {
 
 .post-img {
   width: 75%;
+  transition: 1s;
 }
 
 @keyframes test {
