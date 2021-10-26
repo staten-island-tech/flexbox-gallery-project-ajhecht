@@ -4,6 +4,7 @@ html,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
   border: solid #203f14 8px;
   text-align: center;
   padding: 7px 4px;
-  font-size: 50px;
+  font-size: 6rem;
   margin-left: 30vw;
   margin-right: 30vw;
   margin-top: 2vh;
@@ -33,7 +34,7 @@ body {
   border: solid #203f14 8px;
   text-align: center;
   padding: 2px 1px;
-  font-size: 20px;
+  font-size: 2rem;
   margin-left: 38vw;
   margin-right: 38vw;
   margin-top: 5vh;
@@ -51,7 +52,7 @@ body {
   border: solid #203f14 5px;
   text-align: center;
   padding: 1px 0.5px;
-  font-size: 17px;
+  font-size: 1.7rem;
   margin-left: 39vw;
   margin-right: 39vw;
   margin-top: 7vh;
@@ -78,7 +79,7 @@ body {
   height: 90%;
   margin: auto;
   margin-top: 20vh;
-  font-size: 20px;
+  font-size: 5rem;
   font-weight: 700;
   margin-bottom: 15px;
   color: #362706;
